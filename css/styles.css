@@ -1,0 +1,146 @@
+body {
+  text-align: center;
+  font-family: 'Crimson Text'
+}
+
+p {
+  color: #999494;
+  font-weight: lighter;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  width: 5%;
+}
+
+/* Title Section */
+#title {
+  background-color: #e0ebe8;
+}
+
+.navbar {
+  padding: 30px 50px;
+}
+
+.josh-cartoon {
+  border-radius: 100%;
+}
+
+.title-h1 {
+  color: #45b29a;
+  font-size: 6rem;
+  font-family: 'Parisienne';
+}
+
+.title-h2 {
+  color: #45b29a;
+  font-size: 1.7rem;
+}
+
+.title-mountain-img {
+  width: 70%;
+  background-color: #e0ebe8;
+  border-radius: 5%;
+}
+
+/* Intro Section */
+#intro {
+  padding: 10% 5%;
+}
+
+.jc2 {
+  width: 18%;
+}
+
+.intro-h2 {
+  color: #45b29a;
+  font-size: 2rem;
+  padding: 30px;
+}
+
+.intro-p {
+  width: 50%;
+  line-height: 2;
+  margin: 0 auto;
+  font-size: 1.2rem;
+}
+
+/* what-i-can-do Section */
+#what-i-can-do {
+  padding: 10% 5%;
+}
+
+.what-i-can-do-h1 {
+  color: #318f7a;
+  font-size: 3rem;
+  padding-bottom: 50px;
+}
+
+.what-i-can-do-h2 {
+  padding-bottom: 3%;
+}
+
+.what-i-can-do-p {
+  font-size: 1.1rem;
+}
+
+.what-i-can-do-img {
+  width: 15%;
+  padding-top: 3%;
+}
+
+.what-i-can-do-h2 {
+  color: #45b29a;
+}
+
+/* Contact-Me Section */
+#contact-me {
+  padding: 10% 5%;
+}
+
+.contact-h1 {
+  color: #318f7a;
+  font-size: 3rem;
+}
+
+.contact-h2 {
+  color: #45b29a;
+  font-size: 1.7rem;
+  padding: 40px 0;
+}
+
+.contact-p {
+  font-size: 1.1rem;
+}
+
+.btn {
+  background-color: #45b29a;
+  margin-top: 40px;
+}
+
+.btn:hover {
+  background-color: #318f7a;
+}
+
+/* Footer Section  */
+#footer {
+  padding: 10% 5%;
+  background-color: #c5ded7;
+  color: #45b29a;
+}
+
+.td-img {
+  width: 3%;
+  padding-bottom: 5px;
+}
+
+.footer-icons {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.footer-h6 {
+  padding: 30px;
+}
