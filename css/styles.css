@@ -37,39 +37,57 @@ hr {
 .title-h2 {
   color: #45b29a;
   font-size: 1.7rem;
+  padding-bottom: 40px;
 }
 
 .title-mountain-img {
-  width: 70%;
+  width: 60%;
   background-color: #e0ebe8;
   border-radius: 5%;
 }
 
 /* Intro Section */
 #intro {
-  padding: 10% 5%;
+  padding: 10% 30%;
 }
 
 .jc2 {
-  width: 18%;
+  float: left;
+  margin-right: 20px;
 }
 
 .intro-h2 {
   color: #45b29a;
   font-size: 2rem;
-  padding: 30px;
+  text-align: left;
+}
+
+@media (max-width: 621px) {
+.intro-h2 {
+  text-align: center;
+  margin-top: 20px;
+}
+.jc2 {
+float: none;
+margin-right: 0;
+}
 }
 
 .intro-p {
-  width: 50%;
-  line-height: 2;
-  margin: 0 auto;
+  line-height: 1.5;
   font-size: 1.2rem;
+  text-align: left;
 }
 
 /* what-i-can-do Section */
 #what-i-can-do {
   padding: 10% 5%;
+}
+
+@media (max-width: 575px) {
+  #what-i-can-do {
+    padding: 10% 18%;
+  }
 }
 
 .what-i-can-do-h1 {
@@ -79,15 +97,16 @@ hr {
 }
 
 .what-i-can-do-h2 {
-  padding-bottom: 3%;
+padding: 5% 0 0;
 }
 
 .what-i-can-do-p {
   font-size: 1.1rem;
+  text-align: justify;
 }
 
 .what-i-can-do-img {
-  width: 15%;
+  width: 30%;
   padding-top: 3%;
 }
 
