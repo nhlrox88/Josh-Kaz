@@ -84,12 +84,6 @@ margin-right: 0;
   padding: 10% 5%;
 }
 
-@media (max-width: 575px) {
-  #what-i-can-do {
-    padding: 10% 18%;
-  }
-}
-
 .what-i-can-do-h1 {
   color: #318f7a;
   font-size: 3rem;
@@ -112,6 +106,15 @@ padding: 5% 0 0;
 
 .what-i-can-do-h2 {
   color: #45b29a;
+}
+
+@media (max-width: 991px) {
+  #what-i-can-do {
+    padding: 10% 18%;
+  }
+  .what-i-can-do-img {
+    width: 10vw;
+  }
 }
 
 /* Contact-Me Section */
